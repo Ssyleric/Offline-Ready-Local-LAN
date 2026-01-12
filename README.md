@@ -1,4 +1,4 @@
-# Indépendance du réseau local (LAN) avec MikroTik + AdGuard Home + Proxmox
+# MikroTik + AdGuard Home + Proxmox
 
 Date : 2026-01-11
 Routeur : MikroTik RouterOS 7.20.6

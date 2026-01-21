@@ -91,11 +91,11 @@ But : même sans Internet, résolution des services internes.
 
 ### 5) Nettoyage : suppression d’un nom DNS invalide
 
-But : retirer l’entrée “bad name” (`.dsplexinside.z-server.me`) qui peut perturber.
+But : retirer l’entrée “bad name” (`XXXX.z-server.me`) qui peut perturber.
 
 ```routeros
 /ip dns static remove 0
-/ip dns static print detail where name=".dsplexinside.z-server.me"
+/ip dns static print detail where name="XXXX.z-server.me"
 ```
 
 ---
